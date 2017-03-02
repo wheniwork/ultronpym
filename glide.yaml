@@ -1,0 +1,9 @@
+package: github.com/wheniwork/ultronpym
+import:
+- package: github.com/spf13/cobra
+- package: gopkg.in/yaml.v2
+- package: github.com/fatih/color
+  version: ^1.1.0
+- package: golang.org/x/crypto
+  subpackages:
+  - openpgp

@@ -1,0 +1,26 @@
+hash: c78b0d3913c5e9060ccd6731f45fb7ce0ff8d824902f0c817375d4e5ee43661b
+updated: 2016-12-05T23:37:08.486954645-06:00
+imports:
+- name: github.com/fatih/color
+  version: dea9d3a26a087187530244679c1cfb3a42937794
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/mattn/go-colorable
+  version: d228849504861217f796da67fae4f6e347643f15
+- name: github.com/mattn/go-isatty
+  version: 30a891c33c7cde7b02a981314b4228ec99380cca
+- name: github.com/spf13/cobra
+  version: 856b96dcb49d6427babe192998a35190a12c2230
+- name: github.com/spf13/pflag
+  version: dabebe21bf790f782ea4c7bbd2efc430de182afd
+- name: golang.org/x/crypto
+  version: a9ecc67d46e12a127b6b40b62d62b689cc511de4
+  subpackages:
+  - openpgp
+- name: golang.org/x/sys
+  version: 478fcf54317e52ab69f40bb4c7a1520288d7f7ea
+  subpackages:
+  - unix
+- name: gopkg.in/yaml.v2
+  version: a5b47d31c556af34a302ce5d659e6fea44d90de0
+testImports: []
